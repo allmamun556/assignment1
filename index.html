@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Page Title</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Page Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 <body>
 
-    <header style="position: relative;">
-        <div style="text-align: center;">
-            <img src="resources/Banner Image.png" height="600px" width="1320px" />
-            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; width: 632px; height: 246px;">
-                <p style="width: 259px; height: 40px;">Happy New Year</p>
-                <div style="width: 632px; height: 190px;">
-                <h1 >New Year Party</h1>
-                <h1>Celebration</h1>
-               </div>
-            </div>
-        </div>
+    <header>
+    <div>
+            <h1 >Happy New Year <br> New Year Party <br> Celebration</h1>
+    </div>
+        
     </header>
     
     
-
     <main>
-        <section style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-            <div style="text-align: center; width: 802.9px; height: 806px; padding: 20px; box-sizing: border-box; margin: 0 auto;">
+        <section id="promoSection">
+            <div id="promoContent" >
                 <h4>65% OFF</h4>
                 <div>
                     <div>
@@ -34,20 +28,19 @@
                     <img src="resources/New Year Photo.png" alt="New Year Photo"/>
                 </div>
             </div>
-
-            
         </section>
+        
 
         <section>
-            <div style="position: relative; width: 100%; max-width: 1200px; margin: 0 auto; overflow: hidden;">
-                <img src="resources/Vectorrr.png" style="width: 100%; height: auto; position: absolute; top: 0; left: 0; z-index: -1;" alt="Background Image">
-                <div style="position: relative; z-index: 1; display: flex; align-items: center; justify-content: space-between; padding: 20px; text-align: left; color: white;">
+            <div id="mid-night-party">
+                <img src="resources/Vectorrr.png" id="mid-night-img" alt="Background Image">
+                <div id="mid-night-div">
                     <div style="flex: 1;">
                         <h1>Welcome to <br> midnight party</h1>
                         <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. <br> Ipsum sed sodales risus ut pellentesque vel euismod. </p>
                         <p>JOIN NOW</p>
                     </div>
-                    <img src="resources/Group 70.png" style="max-width: 50%;" alt="Overlay Image">
+                    <img src="resources/Group 70.png" alt="Overlay Image">
                 </div>
             </div>
 
@@ -56,29 +49,30 @@
            
     
         
-        <section style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-            <div style="background: linear-gradient(to right, #ff0000, #ff0066); width: 1320px; height: 482px; margin: 0 auto;">
-                <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
+        <section id="eventSection">
+            <div>
+                <div>
                     <p1>Place: New Park Hotel</p1>
                     <p1>Date: 31 December Night 2023</p1>
                     <p>Time: Evening 7.30 Pm To 12.30 AM</p>
-                    <button style="background-color: #ffffff; color: #000000; padding: 10px 20px; border: none; cursor: pointer;">JOIN NOW</button>
+                    <button>JOIN NOW</button>
                 </div>
             </div>
         </section>
 
-        <section style="display: flex; justify-content: center; align-items: center; height: 482px; width: 1320px;">
 
-            <div style="display: flex; justify-content: space-around; align-items: center;">
-                <div style="text-align: center; display: inline-block; padding: 20px;">
-                    <p style="text-align: left;">NEW BEST OFFER</p>
-                    <h1 style="text-align: left;">Comming Soon</h1>
-                    <p style="text-align: left;">Dolor sit amet consectetur. <br> Consequat eget consectetur maecenas sed molestie <br> malesuada. Ipsum sed sodales risus ut<br> pellentesque vel euismod. </p>
+        <section id="comming-soon" >
+
+            <div >
+                <div>
+                    <p>NEW BEST OFFER</p>
+                    <h1>Comming Soon</h1>
+                    <p>Dolor sit amet consectetur. <br> Consequat eget consectetur maecenas sed molestie <br> malesuada. Ipsum sed sodales risus ut<br> pellentesque vel euismod. </p>
                 </div>
-                <div style="display: inline-block; padding: 20px;">
-                    <img src="resources/Ellipse 1.png" alt="Ellipse Image" style="border: 5px solid white; border-radius: 50%; box-shadow: 0 0 10px red;">
+                <div>
+                    <img src="resources/Ellipse 1.png" alt="Ellipse Image" >
                 </div>
-                <div style="text-align: left; display: inline-block; padding: 20px; margin-left: 20px;">
+                <div >
                     <h1>2024</h1>
                     <p1>Dolor sit amet consectetur.<br> Consequat eget consectetur <br> maecenas sed.</p1> <br>
                     <img src="resources/Group 96.png" alt="Group 96 Image"/>
@@ -87,8 +81,9 @@
 
         </section>
 
+
         <section>
-            <div style="width: 1320px; height: 986.07px; margin: 0 auto; text-align: center;">
+            <div id="discount">
                 <div>
                     <div>
                        <p>WHAT IS FUNCTIONAL</p>
@@ -101,10 +96,10 @@
                 </div>
 
                 <div>
-                    <div style="position: relative; text-align: right;">
-                        <img style="width: 429px; height: 433px;" src="resources/Rectangle 1.png" alt="Background Image">
-                        <img style="position: absolute; top: 50px; left: 780px; width: 220.05px; height: 220.05px; z-index: 1;" src="resources/Group 44.png" alt="Overlay Image">
-                        <img src="resources/Rectangle 2.png"  style="position: absolute; top: 400px; left: 25px; width: 1295px; height: 220.05px; z-index: 1;"/>
+                    <div id="grid-image">
+                        <img src="resources/Rectangle 1.png" alt="Background Image">
+                        <img id ="grid-img-2"  src="resources/Group 44.png" alt="Overlay Image">
+                        <img id ="grid-img-3"  src="resources/Rectangle 2.png"/>
                         <img style="position: absolute; top: 110px; left: 200px; width: 674.82px; height: 577.96px; z-index: 1;" src="resources/Group 75.png" alt="Overlay Image">
                     </div>
                     

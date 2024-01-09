@@ -1,0 +1,176 @@
+
+header {
+    background-image: url('resources/Banner\ \ Image.png');
+    background-position: center;
+    color: hsl(0, 0%, 95%); /* Lighter white */
+
+    text-align: center;
+    width: 1320px;
+    height:600px;
+    text-align: center;
+    margin-left: 750px;
+   
+}
+
+header div h1 {
+    padding-top: 200px;
+
+}
+
+#promoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#promoContent {
+    /* Additional styles for the content div */
+    text-align: center;
+    width: 802.9px; 
+    height: 806px;padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#mid-night-party{
+    position: relative;
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+#mid-night-img{
+    width: 100%; 
+    height: auto;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+}
+
+#mid-night-div{
+    position: relative; 
+    z-index: 1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 20px; 
+    text-align: left; 
+    color: white;
+}
+
+#mid-night-party >img >img{
+    max-width: 50%;
+}
+
+
+
+#eventSection{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+#eventSection > div:first-child {
+    /* Styles for the first div element directly inside #eventSection */
+    background: linear-gradient(to right, #d6c2c2, #e9d6dd);
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+}
+
+#eventSection > div > div {
+    /* Styles for the inner div inside the div directly inside #eventSection */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+#evetSection button{
+    background-color: #ffffff; 
+    color: #000000; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer;
+}
+
+#comming-soon{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 482px; 
+    width: 1320px; 
+    margin-left: 700px
+}
+
+#comming-soon > div{
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center
+}
+
+#comming-soon > div >div{
+    text-align: center; 
+    display: inline-block; 
+    padding: 20px;
+    text-align: left;
+}
+
+#comming-soon> div> div>div>{
+    display: inline-block; 
+    padding: 20px;
+}
+
+#comming-soon> div> div>div> img{
+    border: 5px solid white; 
+    border-radius: 50%; 
+    box-shadow: 0 0 10px red;
+}
+
+#comming-soon> div> div>div>{
+    text-align: left; 
+    display: inline-block; 
+    padding: 20px; 
+    margin-left: 20px;
+}
+
+#discount{
+    width: 1320px; 
+    height: 986.07px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+#grid-image{
+    position: relative; 
+    text-align: right;
+}
+
+#grid-image>img{
+    width: 429px; 
+    height: 433px; 
+}
+
+#grid-img-2{
+    position: absolute; 
+    top: 30px; 
+    left: 700px; 
+    width: 220.05px; 
+    height: 220.05px; 
+    z-index: 1;
+}
+
+#grid-img-3{
+    position: absolute; 
+    top: 400px; 
+    left: 25px; 
+    width: 1295px; 
+    height: 220.05px; 
+    z-index: 1;
+}
